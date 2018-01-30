@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.msi.store.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mainbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="main" />
+
+        <Button
+            android:id="@+id/storebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="편의점" />
+
+        <Button
+            android:id="@+id/item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="상품" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/favorite1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="favorite1" />
+
+    <TextView
+        android:id="@+id/favorite2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="favorite2" />
+</LinearLayout>
